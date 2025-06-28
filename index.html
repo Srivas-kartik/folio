@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kartik Srivastava - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo"><strong>Portfolio</strong></div>
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#certification">Certification</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="home">
+    <div class="overlay">
+      <img src="Round.jpeg" alt="Kartik Srivastava" class="profile-img" />
+      <div class="hero-content">
+        <h1>Kartik Srivastava</h1>
+        <p>Web Developer | Video Editor | Learner</p>
+        <div class="resume-button">
+          <a href="Resume.pdf" download class="btn-download">Download Resume</a>
+        </div>
+        <div class="hero-social-icons">
+          <a href="https://github.com/Srivas-kartik" target="_blank" class="icon" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/kartik-srivastava-3600732a1" target="_blank" class="icon" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://x.com/KartikSriv51338" target="_blank" class="icon" title="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="mailto:kartik@example.com" class="icon" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a final year B.Tech student at <strong>United College of Engineering and Research</strong>,
+        with a strong interest in web development and programming. I started learning front-end web
+        development early in my academic journey, which sparked my passion for building user-friendly and
+        responsive websites. Over time, I’ve also gained proficiency in programming languages like
+        <strong>Python</strong> and <strong>Java</strong>. I am currently seeking internship opportunities
+        to apply and grow my skills in real-world projects.
+      </p>
+    </section>
+
+    <section id="certification">
+      <h2>Certification</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <h3>Web Development</h3>
+          <p>Completed from <strong>Codsoft</strong></p>
+        </div>
+        <div class="project-card">
+          <h3>Java Programming</h3>
+          <p>Completed from <strong>United Groups of Institution</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <h3>Front-End Development</h3>
+          <p>HTML, CSS, JavaScript, React.js, Responsive Design</p>
+        </div>
+        <div class="project-card">
+          <h3>Tools & Platforms</h3>
+          <p>Git, GitHub, VS Code, Figma</p>
+        </div>
+        <div class="project-card">
+          <h3>Video Editing</h3>
+          <p>Adobe Premiere Pro, Filmora, CapCut</p>
+        </div>
+        <div class="project-card">
+          <h3>SQL</h3>
+          <p>MySQL, database design, basic queries</p>
+        </div>
+        <div class="project-card">
+          <h3>Core Java</h3>
+          <p>OOPs concepts, syntax, and logic building</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: Srivastavakartik310@gmail.com</p>
+      <p>Phone: +91-7307203395</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Kartik Srivastava. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Set year in footer
+    document.getElementById("year").innerText = new Date().getFullYear();
+  </script>
+</body>
+</html>
